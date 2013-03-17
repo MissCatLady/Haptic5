@@ -23,6 +23,7 @@
 		34E06CD616F6497C0058A241 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E06CB116F6497B0058A241 /* Foundation.framework */; };
 		34E06CDE16F6497C0058A241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CDC16F6497C0058A241 /* InfoPlist.strings */; };
 		34E06CE116F6497C0058A241 /* iHealth_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E06CE016F6497C0058A241 /* iHealth_TrackerTests.m */; };
+		34E06CEB16F64F230058A241 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CEA16F64F230058A241 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		34E06CDD16F6497C0058A241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34E06CDF16F6497C0058A241 /* iHealth_TrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHealth_TrackerTests.h; sourceTree = "<group>"; };
 		34E06CE016F6497C0058A241 /* iHealth_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHealth_TrackerTests.m; sourceTree = "<group>"; };
+		34E06CEA16F64F230058A241 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		34E06CA316F6497B0058A241 = {
 			isa = PBXGroup;
 			children = (
+				34E06CEA16F64F230058A241 /* README.md */,
 				34E06CB516F6497B0058A241 /* iHealth Tracker */,
 				34E06CD916F6497C0058A241 /* iHealth TrackerTests */,
 				34E06CAE16F6497B0058A241 /* Frameworks */,
@@ -236,6 +239,7 @@
 				34E06CC416F6497C0058A241 /* Default@2x.png in Resources */,
 				34E06CC616F6497C0058A241 /* Default-568h@2x.png in Resources */,
 				34E06CC916F6497C0058A241 /* MainStoryboard.storyboard in Resources */,
+				34E06CEB16F64F230058A241 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,7 @@
 				34E06CE616F6497C0058A241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34E06CE716F6497C0058A241 /* Build configuration list for PBXNativeTarget "iHealth TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +466,7 @@
 				34E06CE916F6497C0058A241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
