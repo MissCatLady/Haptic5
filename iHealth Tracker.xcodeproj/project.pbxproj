@@ -16,14 +16,13 @@
 		34E06CC216F6497C0058A241 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CC116F6497C0058A241 /* Default.png */; };
 		34E06CC416F6497C0058A241 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CC316F6497C0058A241 /* Default@2x.png */; };
 		34E06CC616F6497C0058A241 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CC516F6497C0058A241 /* Default-568h@2x.png */; };
-		34E06CC916F6497C0058A241 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CC716F6497C0058A241 /* MainStoryboard.storyboard */; };
-		34E06CCC16F6497C0058A241 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E06CCB16F6497C0058A241 /* ViewController.m */; };
 		34E06CD416F6497C0058A241 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E06CD316F6497C0058A241 /* SenTestingKit.framework */; };
 		34E06CD516F6497C0058A241 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E06CAF16F6497B0058A241 /* UIKit.framework */; };
 		34E06CD616F6497C0058A241 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E06CB116F6497B0058A241 /* Foundation.framework */; };
 		34E06CDE16F6497C0058A241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CDC16F6497C0058A241 /* InfoPlist.strings */; };
 		34E06CE116F6497C0058A241 /* iHealth_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E06CE016F6497C0058A241 /* iHealth_TrackerTests.m */; };
 		34E06CEB16F64F230058A241 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CEA16F64F230058A241 /* README.md */; };
+		34E06CED16F67C330058A241 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E06CEC16F67C330058A241 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +49,6 @@
 		34E06CC116F6497C0058A241 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34E06CC316F6497C0058A241 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		34E06CC516F6497C0058A241 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		34E06CC816F6497C0058A241 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		34E06CCA16F6497C0058A241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34E06CCB16F6497C0058A241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34E06CD216F6497C0058A241 /* iHealth TrackerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iHealth TrackerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E06CD316F6497C0058A241 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		34E06CDB16F6497C0058A241 /* iHealth TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHealth TrackerTests-Info.plist"; sourceTree = "<group>"; };
@@ -60,6 +56,7 @@
 		34E06CDF16F6497C0058A241 /* iHealth_TrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHealth_TrackerTests.h; sourceTree = "<group>"; };
 		34E06CE016F6497C0058A241 /* iHealth_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHealth_TrackerTests.m; sourceTree = "<group>"; };
 		34E06CEA16F64F230058A241 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		34E06CEC16F67C330058A241 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +119,7 @@
 			children = (
 				34E06CBE16F6497B0058A241 /* AppDelegate.h */,
 				34E06CBF16F6497C0058A241 /* AppDelegate.m */,
-				34E06CC716F6497C0058A241 /* MainStoryboard.storyboard */,
-				34E06CCA16F6497C0058A241 /* ViewController.h */,
-				34E06CCB16F6497C0058A241 /* ViewController.m */,
+				34E06CEC16F67C330058A241 /* Storyboard.storyboard */,
 				34E06CB616F6497B0058A241 /* Supporting Files */,
 			);
 			path = "iHealth Tracker";
@@ -238,8 +233,8 @@
 				34E06CC216F6497C0058A241 /* Default.png in Resources */,
 				34E06CC416F6497C0058A241 /* Default@2x.png in Resources */,
 				34E06CC616F6497C0058A241 /* Default-568h@2x.png in Resources */,
-				34E06CC916F6497C0058A241 /* MainStoryboard.storyboard in Resources */,
 				34E06CEB16F64F230058A241 /* README.md in Resources */,
+				34E06CED16F67C330058A241 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +271,6 @@
 			files = (
 				34E06CBC16F6497B0058A241 /* main.m in Sources */,
 				34E06CC016F6497C0058A241 /* AppDelegate.m in Sources */,
-				34E06CCC16F6497C0058A241 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +299,6 @@
 				34E06CB916F6497B0058A241 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		34E06CC716F6497C0058A241 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34E06CC816F6497C0058A241 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		34E06CDC16F6497C0058A241 /* InfoPlist.strings */ = {
