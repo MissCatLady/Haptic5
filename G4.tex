@@ -3,6 +3,8 @@
 \usepackage{hyperref,pdfpages}
 \usepackage[english]{babel}
 \usepackage[left=2cm,top=1cm,right=3cm,nohead]{geometry}
+\usepackage{mdframed} % Page spanning boxes
+\usepackage{longtable, tabularx} % Multipage Table
 \usepackage{url}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
@@ -19,42 +21,42 @@ A heuristic evaluation was carried out during the February 26th CSC318 tutorial 
 Our rationale for using a heuristic evaluation is that the feedback provided by these expert evaluators would yield a greater benefit with a small number of participants leading to decreased time spent. \footnote{As seen on slide 34 in Lecture 6: Usability Principles \& Heuristic Evaluations}
 
 \section{Participants}
-We recruited 5 expert evaluators from our CSC318 course at the University of Toronto. These evaluators are male between the ages of 20 to 25. Four of the evaluators are on their way to completing a Computer Science major/specialist, one did not disclose his information. It is important to note that all evaluators are comfortable using a smartphone, as they all own a smartphone, with 2 of the 5 evaluators running iOS on their smartphone, and the rest running an android operating system. These expert evaluators are also quite familiar with heuristic evaluations and are comfortable with the 5 usability heuristics that were explained to them at the start of the usability task.
+We recruited 5 expert evaluators from our CSC318 course at the University of Toronto. These evaluators are male between the ages of 20 to 25. Four of the evaluators are on their way to completing a Computer Science major/specialist, one did not disclose his information. It is important to note that all evaluators are comfortable using a smartphone, with 2 of the 5 evaluators running iOS on their smartphone, and the rest running an android operating system. These expert evaluators are also quite familiar with heuristic evaluations and are comfortable with the 5 usability heuristics that were explained to them at the start of the usability task.
 \section{Usability Criteria}
 
 To carry out the heuristic evaluation we first presented the evaluators with a description of the 5 usability criteria and how they would be important to our application. These criteria are as follows:
-\vspace{0.7cm}
+\vspace{12pt}
 
 \noindent\textbf{[Consistency and Standards]}
-\vspace{0.2cm}
+\vspace{12pt}
 \\The icons and actions that are available must be consistent with what the user thinks
 the resulting action should be. The icons and actions should also have uniform
 meaning throughout the use of the application and relate to the current platform
 so as not to confuse the user and to make available actions recognizable.
 \pagebreak
 \\\textbf{[Flexibility and Efficiency]}
-\vspace{0.3cm}
+\vspace{12pt}
 \\The application must have the ability to customize interaction in order to conform
 to the current user. Implementation of this is important in order to have quick user
 response times and to accommodate all types of users.
-\vspace{0.7cm}
+\vspace{12pt}
 \\\textbf{[Error Prevention]}
-\vspace{0.3cm}
+\vspace{12pt}
 \\With a restricted set of actions and the ability to edit data, we can ensure that
 the user is never confronted with any form of error. While the data input is up to
 the users themselves, the app should always provide means of editing data and to
 limit choices, for example with the use of radio buttons. Keeping the data collection
 methods consistent prevents the application from raising any form of error.
-\vspace{0.7cm}
+\vspace{12pt}
 \\\textbf{[Visibility of System Status]}
-\vspace{0.3cm}
+\vspace{12pt}
 \\The user should always know of the current status of the application and what
 actions are available at that time. Properly titled pages along with current system
 readiness, such as an hourglass to indicate that the system is working or busy, will
 let the user know what is happening at that very moment.
-\vspace{0.7cm}
+\vspace{12pt}
 \\\textbf{[Aesthetic and Minimal Design]}
-\vspace{0.3cm}
+\vspace{12pt}
 \\Eliminating unnecessary actions and icons can reveal what the user is able to do at
 that moment in time. Since the interface will have a reduced number of actions, it is
 relatively easy to keep the screen visually pleasing and at the same time informative,
@@ -62,12 +64,12 @@ letting the user know that the only available actions are the ones seen on the s
 
 \section{Tasks}
 The evaluators were then asked to complete 2 tasks on the paper prototypes. The evaluators were presented with the home screen at the start of each task, and simulation of the task occurred via the evaluator's interaction with the ``buttons'' on the protoype. Tapping on the keyboard button allows the evaluator to simulate typing on the screen, and tapping on action buttons would present the evaluator with another screen prototype. \footnote{The screen prototypes can be found in the Appendix} The tasks given are as follows:
-\vspace{0.7cm}
+\vspace{12pt}
 \\\textbf{Task 1:} Log into the application, get to the log entry screen and complete an entry.
 This is performed by tapping on application icon shown in \textit{Screen 1}, inputting a password
 if necessary (the details for the password are already given) or choosing a user that does
 not have a password (seen in \textit{Screen 4}) and by clicking Add New shown in \textit{Screen 5}. From here it brings the user to the entry screen as seen on \textit{Screen 6} where the user can input data and confirm their entry by clicking OK as seen on \textit{Screen 7}.
-\vspace{0.7cm}
+\vspace{12pt}
 \\\textbf{Task 2:} Create a custom category to add to the log entry screen. From the home screen
 \textit{Screen 5}, the user should click the Settings icon on the top right-hand corner which will
 bring them to \textit{Screen 10}. Users should then click Change Log (bringing them to \textit{Screen 12}) and then click Create New.
@@ -81,20 +83,20 @@ We chose to employ the cognitive evaluation to assess learnability of the system
 \section{Task}
 
 The evaluators were told that the task was to create a new entry. We started off each evaluator with the home screen, and at each step of the task we asked each evaluator the four questions to assess learnability of the system, and produced the appropriate screen protype as the task progressed. 
-\vspace{0.7cm}
+\vspace{12pt}
 \\Task 1: Create a new entry. 
 \\Interaction Sequence:
-\vspace{0.3cm}
+\vspace{12pt}
  \\(0) Open application.  \textit{Screen 1}
  \\(1) Type Credentials \textit{Screen 3}
  \\(2) Click ``okay''.  \textit{Screen 3}
  \\(3) Click ``Add New'' button.  \textit{Screen 5}
  \\(4) Fill out entry.  \textit{Screen 9}
  \\(5) Click ``OK!''.  \textit{Screen 8}
-\vspace{0.7cm}
+\vspace{12pt}
 
 The following four questions were asked to create a believability story for each step of interaction sequence:
-\vspace{0.7cm}
+\vspace{12pt}
 \\(a) Will the user be trying to produce whatever effect the action has?
 \\(b) Will the user be able to notice that the correct action is available?
 \\(c) Once the user finds the correct action at the interface, will she know that it is the right one for the effect she is trying to produce?
@@ -113,7 +115,9 @@ A think aloud is a very straightforward process that requires only a participant
 To ensure an accurate presentation of the think aloud for each participant, we have generated a script that will be presented to each participant. The script consists of a basic description that is given to all participants along with practice tasks that can be given until the participant is comfortable with thinking out loud. The practice sessions use a basic calculator since it is an object that most people are familiar with. The familiarity will help users be confident of their actions and pick up the task more readily. The think aloud itself will only require the paper prototype.
 
 \section{Think Aloud Script}
-\includepdf[pages=-]{Screens/ThinkAloudScript.pdf}
+\begin{center}
+\fbox{\includegraphics[scale=0.75]{Screens/ThinkAloudScript.pdf}}
+\end{center}
 
 \section{Rationale}
 Performing a think aloud is suitable for our application's current state since it allows us to gather data without needing any additional equipment; only the paper prototype and a participant is required. Also, since this method is quick and easy to perform, we are able to gather numerous participants and keep explanation of the task at hand to a minimum.
@@ -132,7 +136,7 @@ The participants gathered for the think aloud varied in age: three of the five p
 \section*{Heuristic Evaluation Results}
 \textbf{Task 1}
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 1\\
 	\hline
@@ -165,11 +169,11 @@ The participants gathered for the think aloud varied in age: three of the five p
 	\textbf{Possible solution and/or trade-offs}:\\
 	Make the \emph{Add New} button less ambiguous by using more descriptive text.\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 2\\
 	\hline
@@ -201,11 +205,11 @@ The participants gathered for the think aloud varied in age: three of the five p
 	\textbf{Possible solution and/or trade-offs}:\\
 Can switch around the order of the buttons, and label the affirmative action "Sign-in". Can also label "Ok!" button in the new entry as "Save log".\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 3\\
 	\hline
@@ -241,11 +245,11 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\item{Give the option to show the entry screen upon login as opposed to the given home screen}
 	\end{itemize}\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 4 \& Student 5\\
 	\hline
@@ -279,12 +283,12 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\item{N/A}
 	\end{itemize}\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \textbf{Task 2}
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 1\\
 	\hline
@@ -316,11 +320,11 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\textbf{Possible solution and/or trade-offs}:\\
 	Make the \emph{Settings} icon more prominent and available on every screen or give the user the direct ability to create a custom data field right from the log entry screen. This may reduce the minimalistic feel of the application, but it will increase it's convenience and functionality.\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 2\\
 	\hline
@@ -351,11 +355,11 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\textbf{Possible solution and/or trade-offs}:\\
 	N/A\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 3\\
 	\hline
@@ -388,12 +392,12 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\textbf{Possible solution and/or trade-offs}:\\
 	Make the \emph{Change Log} setting less ambiguous by using more descriptive text.\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 4\\
 	\hline
@@ -427,11 +431,11 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\item{Can add an option to add a custom category from the entry log itself so the user do not need to navigate to find the feature.}
 	\end{itemize}\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 5\\
 	\hline
@@ -466,7 +470,7 @@ Can switch around the order of the buttons, and label the affirmative action "Si
 	\item{Possible to add a text below the icon, or have it highlighted in another colour to increase visibility.}
 	\end{itemize}\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \section*{Cognitive Evaluation Results}
@@ -501,7 +505,7 @@ State 0 (Open Application - Screen 1)
 \\\indent \textbf{Student 5:} Yes, the welcome page is open.
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 4\\
 	\hline
@@ -534,7 +538,7 @@ State 0 (Open Application - Screen 1)
 	\textbf{Possible solution and/or trade-offs}:\\
 	Include a header that says "Welcome to your health tracker application!"\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \begin{center}
@@ -566,8 +570,9 @@ State 1 (Type Credentials - Screen 3)
 \\\indent \textbf{Student 4:} Yes, it looks like a password input after you type.
 \\\indent \textbf{Student 5:} Yes, by the circle character indicators.
 
+\pagebreak
 \begin{center}
-State 2 (Click "okay" - Screen 3)
+{\Large State 2 (Click "okay" - Screen 3)}
 \end{center}
 
 \noindent(a) Will the user be trying to produce whatever effect the action has?
@@ -596,7 +601,7 @@ State 2 (Click "okay" - Screen 3)
 \\\indent \textbf{Student 5:} Yes, the screen is brought to a new state.
 
 \begin{center}
-State 3 (Click ''Add New'' - Screen 5)
+{ \Large State 3 (Click ''Add New'' - Screen 5)}
 \end{center}
 
 \noindent(a) Will the user be trying to produce whatever effect the action has?
@@ -625,7 +630,7 @@ State 3 (Click ''Add New'' - Screen 5)
 \\\indent \textbf{Student 5:} Yes, there is a date indicating today's date, and a log entry to fill out.
 
 \begin{center}
-State 4 (Fill out entry - Screen 9)
+{ \Large State 4 (Fill out entry - Screen 9)}
 \end{center}
 
 \noindent(a) Will the user be trying to produce whatever effect the action has?
@@ -654,7 +659,7 @@ State 4 (Fill out entry - Screen 9)
 \\\indent \textbf{Student 5:} Yes, since the input field will now show the information the user has typed.
 
 \begin{center}
-State 5 (Click "ok!" - Screen 8)
+{ \Large State 5 (Click "ok!" - Screen 8)}
 \end{center}
 
 \noindent(a) Will the user be trying to produce whatever effect the action has?
@@ -684,7 +689,7 @@ State 5 (Click "ok!" - Screen 8)
 
 
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{User}: Student 2 \& Student 5\\
 	\hline
@@ -717,13 +722,13 @@ State 5 (Click "ok!" - Screen 8)
 	\textbf{Possible solution and/or trade-offs}:\\
 	Include a header message on the main menu showing the previous step the user has taken , "New entry saved!"\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \section*{Think-aloud Evaluation Results}
 The results for the think aloud are compiled below. All tasks were performed in the order listed.
 \begin{center}
-	\begin{tabular}{|p{\textwidth}|}
+	\begin{longtable}{|p{\textwidth}|}
 	\hline
 	\textbf{Sign in using existing user}\\
 	\textbf{Note:} Users were told to assume that they knew the password if there is a password associated with the account\\
@@ -747,7 +752,7 @@ The results for the think aloud are compiled below. All tasks were performed in 
 	\textbf{User 3 (20-25):} ``Editing profiles is usually done in a settings menu, so let's go there. So maybe from here I can just select my name or maybe Medical History depending on what you want to change.''\\
 	\textbf{User 5 (40-45):} ``Where do you do that? The main screen? It doesn't look like there's anything there or in the entry screen. I guess it would have to be in that other screen from before (referring to the options screen). But it doesn't really look like you can change your info here, unless you meant to change my Medical History.''\\
 	\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 \chapter{Discussion and Analysis}
@@ -765,6 +770,7 @@ The heuristic evaluation results suggest that the current amount of labelling is
 
 The think aloud results have shown that a lot of the icons and visuals introduced in the app are effective and align with user expectations. No users had difficulty logging into the application; they all agreed that the lock symbol indicates that the app is currently password protected. Users also affirmed that confirming their choices with the OK! button implies that the data inputted will be saved. When asked to view a previous log entry the visual cue of the green calendar days indicated that it is something that can be selected. There was some question regarding the nature of the green days, but upon selecting it users were able to see that they could navigate to the desired screen. Placement of certain features also seemed to agree with what the users think; a user was able to easily edit a profile stating that it should be located in the Settings menu because that is where that type of feature is typically seen.\\
 
+\pagebreak
 \noindent\textbf{[Flexibility and Efficiency]}\\\\
 Since the peripheral smartphone actions, such as long-tapping, were not available it inhibited the usability to a certain extent. The heuristic evaluation showed that making use of long-tapping to bring up submenus or settings would accommodate familiar gestures to some users. An additional option to bypass the Add New screen in order to get to the Entry Screen immediately was also suggested thereby accommodating the user's preference.
 
@@ -791,26 +797,26 @@ The results from the cognitive walkthrough did not surface many problems. One ev
 
 From these results we can see that while our application conforms to the standards of android applications in terms of the icons that are representative of various functions (such as the settings button or the lock symbol) the end users may find this minimalistic design less intuitive than we originally thought and users seem to be more comfortable with text based buttons to confirm action. It is also important for our design to conform to regular browsing standards and have button configurations in the standard places (such as the swapped affirmative and cancel buttons on the sign-in screen) so as to accommodate a user's habits instead of making him learn new ones. \\
 
-Our evaluations implicates our lack of attention toward the expert user who is interested in seeing flexibility in terms of customizing the application environment, such as being able to maintain different controls depending on the tap length and avoiding the main menu screen altogether. We have primarily had the focus of reducing the amount of controls available for error prevention purposes, in the case of not having a cancel button when it came to making a new entry (so it would not be pressed by accident), or having all the customizations found under the settings tab. But from our evaluations we see that increasing the amount of settings may be in fact advantageous to give our users the power, and having multiple ways to access the same place (such as adding a new category) would be better for error prevention so users don't find themselves navigating to the "wrong" place, and wasting time trying to find the setting.\\
+Our evaluations implicates our lack of attention toward the expert user who is interested in seeing flexibility in terms of customizing the application environment, such as being able to maintain different controls depending on the tap length and avoiding the main menu screen altogether. We have primarily had the focus of reducing the amount of controls available for error prevention purposes, in the case of not having a cancel button when it came to making a new entry (so it would not be pressed by accident), or having all the customizations found under the settings tab. But from our evaluations we see that increasing the amount of settings may be in fact advantageous to give our users the power, and having multiple ways to access the same place (such as adding a new category) would be better for error prevention so users don't find themselves navigating to the ``wrong" place, and wasting time trying to find the setting.\\
 
 In light of our results we might have to change our criteria as ease of use and effective navigation seem to be the trade-off for minimalistic design. Our evaluators seem to all be in the camp of wanting more information on the screen rather than less, but perhaps more evaluations may have to be carried out, particularly with the end users rather than expert evaluators to see whether this trend still stands. \\
 
-In terms of system status the cognitive evaluators have taken notice to the "Hello User" message, and date heading on each log which indicates that they are aware of where they are in the system, and are looking toward (once again) text based output for feedback particularly when saving an entry, and confirmation of output.\\
+In terms of system status the cognitive evaluators have taken notice to the ``Hello User" message, and date heading on each log which indicates that they are aware of where they are in the system, and are looking toward (once again) text based output for feedback particularly when saving an entry, and confirmation of output.\\
 
 \chapter{Design Improvement}
 
 \begin{itemize}
-\item{Based on our implications we have decided that the settings icon might not be all that intuitive, this speaks to both the graphic and the location of the icon. To rectify that, the icon will be accompanied by a text written "Settings", and to increase ease of use we might have a hovering toolbar (that can be enabled or disabled).}
+\item{Based on our implications we have decided that the both the graphic and location of the settings icon is not intuitive. To rectify that, the icon will be accompanied by the text ``Settings" along with a hovering toolbar on each page (that can be enabled or disabled).}
 
-\item{To conform to browsing standards, on the log-in screen we will place the affirmative action on the left, and the cancel button on the right. They will be colour coded green and red, the standard for go/stop to really push the message.}
+\item{To conform to browsing standards, particularly on the log in and entry screens, we will place the affirmative action on the left and the cancel button on the right. We will also utilize the colours green and red to provide visual cues to the user for the corresponding action.}
 
-\item{The customize log feature will be found on the new log screen as well, either as a text button or on the above mentioned hovering toolbar}
+\item{The customize log feature will be found on the new log screen as well, either as a text button or on the above mentioned hovering toolbar.}
 
-\item{There will be an option to cancel saving a new log, which will load a pop-up menu asking to confirm the action to decrease accidental deletion of a log.}
+\item{There will be an option to cancel entries to a new log. Clicking cancel will load a pop-up menu to confirm the action to avoid accidental deletion of a log.}
 
-\item{We will allow customizations for power users such as the long tap on the screen to bring up the settings menu (which can be enabled or disabled). Essentially the user will have the option on different ways to access the settings, through the main menu, in the form a toolbar, or as a long tap.}
+\item{We will allow customizations for power users such as the long tap on the screen to bring up the settings menu (which can be enabled or disabled). This will give the user alternative options to access the settings: through the main menu, in the form a toolbar, or as a long tap.}
 
-\item{After saving an entry confirmation in the form of a status message should be displayed to the user to provide proper feedback.}
+\item{After saving an entry, confirmation in the form of a status message should be displayed to the user to provide proper feedback.}
 
 \end{itemize}
 
@@ -824,22 +830,24 @@ Near the end of the cognitive evaluation all of the evaluators seemed to be fed 
 
 \chapter{Appendix}
 \section*{Screen Prototypes}
-
-\includegraphics[scale=0.18]{Screens/00-Launch.png}
-\includegraphics[scale=0.18]{Screens/00-Lock.png}
-\includegraphics[scale=0.18]{Screens/00-Lock--Password-Entry.png}
-\\\\
-\includegraphics[scale=0.18]{Screens/01-Home---Change-User.png}
-\includegraphics[scale=0.18]{Screens/01-Home---No-Selection.png}
-\includegraphics[scale=0.18]{Screens/02-Previous--No-Selection.png}
-\\\\
-\includegraphics[scale=0.18]{Screens/03-Add--No-Selection.png}
-\includegraphics[scale=0.18]{Screens/03-Add--Scrolled.png}
-\includegraphics[scale=0.18]{Screens/03-Add--Add-Entry.png}
-\\\\
-\includegraphics[scale=0.18]{Screens/04-Settings--Null.png}
-\includegraphics[scale=0.18]{Screens/05-Change-Log--Indi-Settings.png}
-\includegraphics[scale=0.18]{Screens/05-Change-Log--Null.png}
+\begin{center}
+	\includegraphics[scale=0.18]{Screens/00-Launch.png}
+	\includegraphics[scale=0.18]{Screens/00-Lock.png}
+	\includegraphics[scale=0.18]{Screens/00-Lock--Password-Entry.png}
+	
+	\includegraphics[scale=0.18]{Screens/01-Home---Change-User.png}
+	\includegraphics[scale=0.18]{Screens/01-Home---No-Selection.png}
+	\includegraphics[scale=0.18]{Screens/02-Previous--No-Selection.png}
+	
+	\includegraphics[scale=0.18]{Screens/03-Add--No-Selection.png}
+	\includegraphics[scale=0.18]{Screens/03-Add--Scrolled.png}
+	\includegraphics[scale=0.18]{Screens/03-Add--Add-Entry.png}
+	
+	\includegraphics[scale=0.18]{Screens/04-Settings--Null.png}
+	\includegraphics[scale=0.18]{Screens/05-Change-Log--Indi-Settings.png}
+	\includegraphics[scale=0.18]{Screens/05-Change-Log--Null.png}
+\end{center}
+\begin{minipage}{0.5\textwidth}
 \begin{enumerate}
 \item{Phone Home Screen}
 \item{Default User Screen (Password Protected)}
@@ -847,6 +855,12 @@ Near the end of the cognitive evaluation all of the evaluators seemed to be fed 
 \item{User Select Screen}
 \item{User Home Screen}
 \item{Previous Day Selection}
+\end{enumerate}
+\hfill
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{enumerate}
+\setcounter{enumi}{6}
 \item{Main Log Entry Screen}
 \item{Main Log Entry Screen Scrolled Down}
 \item{Selected Item Data Input}
@@ -854,20 +868,29 @@ Near the end of the cognitive evaluation all of the evaluators seemed to be fed 
 \item{Individual Category Customization}
 \item{Category Menu}
 \end{enumerate}
+\hfill
+\end{minipage}
 \section*{Sources}
-\textbf{Think Aloud Method:} {\url{http://www.cehd.umn.edu/nceo/OnlinePubs/Tech44/}}
-\\\textbf{Criteria for Think Aloud:} {\url{http://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/}}
-\\\textbf{Cognitive Evaluation Result Format:} {\url{https://wiki.mozilla.org/images/3/3b/Bugzilla-CMU_HCI_2009-CW_UARs.pdf}}
+\textbf{Think Aloud Method:} \\
+{\url{http://www.cehd.umn.edu/nceo/OnlinePubs/Tech44/}}\vspace{12pt}
+\\\textbf{Criteria for Think Aloud:}\\ \vspace{12pt}
+ {\url{http://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/}}
+\\\textbf{Cognitive Evaluation Result Format:}\\
+{\url{https://wiki.mozilla.org/images/3/3b/Bugzilla-CMU_HCI_2009-CW_UARs.pdf}}
 
 
 
 \vspace{1.5cm}
-\textbf{Contributions}
-\\Taylor - 8.5 hrs , formatting, cognitive evaluations, research, screen protoypes
-\\Vicky - 8.5 hrs, formatting, heuristic evaluations, think-aloud evaluation, discussion
-\\Lia - 8.5 hrs, formatting, heuristic evaluations, cognitive evaluations, implications, design improvement, reflection
-\\Zhi - 7 hrs evaluation recruiting, heuristic evaluation, research
-\\Wilson - 7 hrs evaluation recruiting, heuristic evaluation, research
+\noindent\textbf{Contributions}
+\begin{center}
+\begin{tabularx}{\textwidth}{l @{ -- } c X}
+Taylor & 12 hrs & formatting, cognitive evaluations, research, screen prototypes\\
+Vicky & 12 hrs & formatting, heuristic evaluations, think-aloud evaluation, discussion\\
+Lia & 12 hrs & formatting, heuristic evaluations, cognitive evaluations, implications, design improvement, reflection\\
+Zhi & 7 hrs & evaluation recruiting, heuristic evaluation, research\\
+Wilson & 7 hrs & evaluation recruiting, heuristic evaluation, research\\
+\end{tabularx}
+\end{center}
 
 
 \end{document}
