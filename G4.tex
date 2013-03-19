@@ -177,11 +177,11 @@ The participants gathered for the think aloud varied in age: three of the five p
 	\hline
 	\textbf{Evidence}:
 	\begin{itemize}
-	\item{User struggled to log on, and pressed cancel the first time. Once he logged on he was able to navigate into "Add New" and fill out a new log.}
+	\item{User struggled to log on, and pressed cancel the first time. Once he logged on he was able to navigate into "Add New" and fill out a new log. The user let out an angry sigh before saving the log.}
 	\end{itemize}\\
 	\hline
 	\textbf{Explanation}:\\
-	because he felt compelled to press on the left-most button that on our application is labelled "Cancel", stating that it is convention to have the affirmative action on the left side, and it should be labelled "Sign-in" or "Log-on" rather than "Ok".\\
+	because he felt compelled to press on the left-most button that on our application is labelled "Cancel", stating that it is convention to have the affirmative action on the left side, and it should be labelled "Sign-in" or "Log-on" rather than "Ok". The user also had a problem with the "Ok!" button when saving the log, he felt it needed to be less ambiguous.\\
 	\hline
 	\textbf{Severity or Benefit}:
 	\begin{itemize}
@@ -197,7 +197,7 @@ The participants gathered for the think aloud varied in age: three of the five p
 	The aim of the application is to be intuitive, having a user struggle during the logging in process detracts from this goal, and the frequency of encountering this problem occurs each time the application is opened so this poses a major usability problem.\\
 	\hline
 	\textbf{Possible solution and/or trade-offs}:\\
-Can switch around the order of the buttons, and label the affirmative action "Sign-in".\\
+Can switch around the order of the buttons, and label the affirmative action "Sign-in". Can also label "Ok!" button in the new entry as "Save log".\\
 	\hline
 	\end{tabular}
 \end{center}
@@ -500,7 +500,7 @@ The results for the think aloud are compiled below. All tasks were performed in 
 \end{center}
 
 \chapter{Discussion and Analysis}
-The evaluation criteria for our application can be summarized by the usability criteria outlined in the heuristic evaluation:
+The evaluation criteria for our application can be summarized by the usability criteria \footnote{See Heuristic Evaluation: Usability Criteria in this report.} outlined in the heuristic evaluation:
 \begin{itemize}
 \item{Consistency and Standards}
 \item{Flexibility and Efficiency}
@@ -510,7 +510,7 @@ The evaluation criteria for our application can be summarized by the usability c
 \end{itemize}
 
 \noindent\textbf{[Consistency and Standards]}\\\\
-The heuristic evaluation results suggest that the current amount of labelling is an issue as some users found certain features difficult to find. Most notably, the Change Log label didn't properly communicate its intention properly leading a user to suggest we change its label to ``Edit Categories'' and the Add New button left users wondering ``Add New what?''
+The heuristic evaluation results suggest that the current amount of labelling is an issue as some users found certain features difficult to find. Most notably, the Change Log label didn't properly communicate its intention properly leading a user to suggest we change its label to ``Edit Categories'' and the Add New button left users wondering ``Add New what?''. As well the labelling of affirmative actions as "Ok" instead of their specific actions, and the location of these buttons caused a user concern.
 
 The think aloud results have shown that a lot of the icons and visuals introduced in the app are effective and align with user expectations. No users had difficulty logging into the application; they all agreed that the lock symbol indicates that the app is currently password protected. Users also affirmed that confirming their choices with the OK! button implies that the data inputted will be saved. When asked to view a previous log entry the visual cue of the green calendar days indicated that it is something that can be selected. There was some question regarding the nature of the green days, but upon selecting it users were able to see that they could navigate to the desired screen. Placement of certain features also seemed to agree with what the users think; a user was able to easily edit a profile stating that it should be located in the Settings menu because that is where that type of feature is typically seen.\\
 
@@ -520,7 +520,7 @@ Since the peripheral smartphone actions, such as long-tapping, were not availabl
 There were no significant problems in terms of flexibility and efficiency found while in the think aloud since the tasks outlined involved basic functionality and were very straightforward. One suggestion, however, was given by a user stating that there was only an option to save their data input and not an option to cancel. This lack of feature does not allow users to revert their changes if they input incorrect data and reduces flexibility significantly.\\
 
 \noindent\textbf{[Error Prevention]}\\\\
-The design of the application makes it so that users are not able to choose features out of vision. The intent behind the design is to ensure that users are always able to navigate to screens that are readily available and that will not produce any errors. Since only a paper prototype of the application was available, any errors that would be generated due to the system itself could not be detected, but our design currently suggests that users will not be able to select options that will conflict or produce an error.\\
+The heuristic evaluation uncovered 2 areas where users may be prone to errors. The first is in the log-in screen where the affirmative action button does not conform to standards and is found on the right-hand side rather than the normal left hand side causing one user to cancel his sign-in. If this had been the actual application, his credentials would have been erased causing him to start from scratch. The other problem is found when users are looking to create a custom category, 2 users have navigated to alternate screens to find the option for a custom category. Both of these errors can be circumvented with the appropriate interface.\\
 
 \noindent\textbf{[Visibility of System Status]}\\\\
 The instantaneous nature of a paper prototype always gave users feedback on whether or not they chose the correct option; if a new screen was not presented when an action was given, the user would assume that the action taken was incorrect or produced no output. In an actual application setting, we intend for the data to be displayed virtually instantaneously since it is mainly composed of text. However, since we currently do not have an application to test we can only speculate that if there were any wait times available then some form of indicator (such as an hourglass or loading bar) would be necessary.\\
