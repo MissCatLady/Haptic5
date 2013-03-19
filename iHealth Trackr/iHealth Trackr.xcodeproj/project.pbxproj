@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349E9A1716F90E4200B621C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E9A1616F90E4200B621C4 /* UIKit.framework */; };
+		349E9A1916F90E4200B621C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E9A1816F90E4200B621C4 /* Foundation.framework */; };
+		349E9A1B16F90E4200B621C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E9A1A16F90E4200B621C4 /* CoreGraphics.framework */; };
+		349E9A2116F90E4200B621C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 349E9A1F16F90E4200B621C4 /* InfoPlist.strings */; };
+		349E9A2316F90E4200B621C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E9A2216F90E4200B621C4 /* main.m */; };
+		349E9A2716F90E4200B621C4 /* iHealthAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E9A2616F90E4200B621C4 /* iHealthAppDelegate.m */; };
+		349E9A2916F90E4200B621C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 349E9A2816F90E4200B621C4 /* Default.png */; };
+		349E9A2B16F90E4200B621C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349E9A2A16F90E4200B621C4 /* Default@2x.png */; };
+		349E9A2D16F90E4200B621C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349E9A2C16F90E4200B621C4 /* Default-568h@2x.png */; };
+		349E9A3016F90E4200B621C4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349E9A2E16F90E4200B621C4 /* MainStoryboard.storyboard */; };
+		349E9A3316F90E4200B621C4 /* iHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E9A3216F90E4200B621C4 /* iHealthViewController.m */; };
+		349E9A3B16F90E4300B621C4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E9A3A16F90E4300B621C4 /* SenTestingKit.framework */; };
+		349E9A3C16F90E4300B621C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E9A1616F90E4200B621C4 /* UIKit.framework */; };
+		349E9A3D16F90E4300B621C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E9A1816F90E4200B621C4 /* Foundation.framework */; };
+		349E9A4516F90E4300B621C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 349E9A4316F90E4300B621C4 /* InfoPlist.strings */; };
+		349E9A4816F90E4300B621C4 /* iHealth_TrackrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E9A4716F90E4300B621C4 /* iHealth_TrackrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349E9A3E16F90E4300B621C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349E9A0B16F90E4200B621C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349E9A1216F90E4200B621C4;
+			remoteInfo = "iHealth Trackr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349E9A1316F90E4200B621C4 /* iHealth Trackr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iHealth Trackr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E9A1616F90E4200B621C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		349E9A1816F90E4200B621C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		349E9A1A16F90E4200B621C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		349E9A1E16F90E4200B621C4 /* iHealth Trackr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHealth Trackr-Info.plist"; sourceTree = "<group>"; };
+		349E9A2016F90E4200B621C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		349E9A2216F90E4200B621C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		349E9A2416F90E4200B621C4 /* iHealth Trackr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHealth Trackr-Prefix.pch"; sourceTree = "<group>"; };
+		349E9A2516F90E4200B621C4 /* iHealthAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHealthAppDelegate.h; sourceTree = "<group>"; };
+		349E9A2616F90E4200B621C4 /* iHealthAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHealthAppDelegate.m; sourceTree = "<group>"; };
+		349E9A2816F90E4200B621C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		349E9A2A16F90E4200B621C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		349E9A2C16F90E4200B621C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		349E9A2F16F90E4200B621C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		349E9A3116F90E4200B621C4 /* iHealthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHealthViewController.h; sourceTree = "<group>"; };
+		349E9A3216F90E4200B621C4 /* iHealthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHealthViewController.m; sourceTree = "<group>"; };
+		349E9A3916F90E4300B621C4 /* iHealth TrackrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iHealth TrackrTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E9A3A16F90E4300B621C4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		349E9A4216F90E4300B621C4 /* iHealth TrackrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHealth TrackrTests-Info.plist"; sourceTree = "<group>"; };
+		349E9A4416F90E4300B621C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		349E9A4616F90E4300B621C4 /* iHealth_TrackrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHealth_TrackrTests.h; sourceTree = "<group>"; };
+		349E9A4716F90E4300B621C4 /* iHealth_TrackrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHealth_TrackrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349E9A1016F90E4200B621C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E9A1716F90E4200B621C4 /* UIKit.framework in Frameworks */,
+				349E9A1916F90E4200B621C4 /* Foundation.framework in Frameworks */,
+				349E9A1B16F90E4200B621C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E9A3516F90E4300B621C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E9A3B16F90E4300B621C4 /* SenTestingKit.framework in Frameworks */,
+				349E9A3C16F90E4300B621C4 /* UIKit.framework in Frameworks */,
+				349E9A3D16F90E4300B621C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349E9A0A16F90E4200B621C4 = {
+			isa = PBXGroup;
+			children = (
+				349E9A1C16F90E4200B621C4 /* iHealth Trackr */,
+				349E9A4016F90E4300B621C4 /* iHealth TrackrTests */,
+				349E9A1516F90E4200B621C4 /* Frameworks */,
+				349E9A1416F90E4200B621C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349E9A1416F90E4200B621C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349E9A1316F90E4200B621C4 /* iHealth Trackr.app */,
+				349E9A3916F90E4300B621C4 /* iHealth TrackrTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349E9A1516F90E4200B621C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349E9A1616F90E4200B621C4 /* UIKit.framework */,
+				349E9A1816F90E4200B621C4 /* Foundation.framework */,
+				349E9A1A16F90E4200B621C4 /* CoreGraphics.framework */,
+				349E9A3A16F90E4300B621C4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349E9A1C16F90E4200B621C4 /* iHealth Trackr */ = {
+			isa = PBXGroup;
+			children = (
+				349E9A2516F90E4200B621C4 /* iHealthAppDelegate.h */,
+				349E9A2616F90E4200B621C4 /* iHealthAppDelegate.m */,
+				349E9A2E16F90E4200B621C4 /* MainStoryboard.storyboard */,
+				349E9A3116F90E4200B621C4 /* iHealthViewController.h */,
+				349E9A3216F90E4200B621C4 /* iHealthViewController.m */,
+				349E9A1D16F90E4200B621C4 /* Supporting Files */,
+			);
+			path = "iHealth Trackr";
+			sourceTree = "<group>";
+		};
+		349E9A1D16F90E4200B621C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				349E9A1E16F90E4200B621C4 /* iHealth Trackr-Info.plist */,
+				349E9A1F16F90E4200B621C4 /* InfoPlist.strings */,
+				349E9A2216F90E4200B621C4 /* main.m */,
+				349E9A2416F90E4200B621C4 /* iHealth Trackr-Prefix.pch */,
+				349E9A2816F90E4200B621C4 /* Default.png */,
+				349E9A2A16F90E4200B621C4 /* Default@2x.png */,
+				349E9A2C16F90E4200B621C4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		349E9A4016F90E4300B621C4 /* iHealth TrackrTests */ = {
+			isa = PBXGroup;
+			children = (
+				349E9A4616F90E4300B621C4 /* iHealth_TrackrTests.h */,
+				349E9A4716F90E4300B621C4 /* iHealth_TrackrTests.m */,
+				349E9A4116F90E4300B621C4 /* Supporting Files */,
+			);
+			path = "iHealth TrackrTests";
+			sourceTree = "<group>";
+		};
+		349E9A4116F90E4300B621C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				349E9A4216F90E4300B621C4 /* iHealth TrackrTests-Info.plist */,
+				349E9A4316F90E4300B621C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349E9A1216F90E4200B621C4 /* iHealth Trackr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E9A4B16F90E4300B621C4 /* Build configuration list for PBXNativeTarget "iHealth Trackr" */;
+			buildPhases = (
+				349E9A0F16F90E4200B621C4 /* Sources */,
+				349E9A1016F90E4200B621C4 /* Frameworks */,
+				349E9A1116F90E4200B621C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iHealth Trackr";
+			productName = "iHealth Trackr";
+			productReference = 349E9A1316F90E4200B621C4 /* iHealth Trackr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349E9A3816F90E4300B621C4 /* iHealth TrackrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E9A4E16F90E4300B621C4 /* Build configuration list for PBXNativeTarget "iHealth TrackrTests" */;
+			buildPhases = (
+				349E9A3416F90E4300B621C4 /* Sources */,
+				349E9A3516F90E4300B621C4 /* Frameworks */,
+				349E9A3616F90E4300B621C4 /* Resources */,
+				349E9A3716F90E4300B621C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349E9A3F16F90E4300B621C4 /* PBXTargetDependency */,
+			);
+			name = "iHealth TrackrTests";
+			productName = "iHealth TrackrTests";
+			productReference = 349E9A3916F90E4300B621C4 /* iHealth TrackrTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349E9A0B16F90E4200B621C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iHealth;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Haptic5;
+			};
+			buildConfigurationList = 349E9A0E16F90E4200B621C4 /* Build configuration list for PBXProject "iHealth Trackr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 349E9A0A16F90E4200B621C4;
+			productRefGroup = 349E9A1416F90E4200B621C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349E9A1216F90E4200B621C4 /* iHealth Trackr */,
+				349E9A3816F90E4300B621C4 /* iHealth TrackrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349E9A1116F90E4200B621C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E9A2116F90E4200B621C4 /* InfoPlist.strings in Resources */,
+				349E9A2916F90E4200B621C4 /* Default.png in Resources */,
+				349E9A2B16F90E4200B621C4 /* Default@2x.png in Resources */,
+				349E9A2D16F90E4200B621C4 /* Default-568h@2x.png in Resources */,
+				349E9A3016F90E4200B621C4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E9A3616F90E4300B621C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E9A4516F90E4300B621C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		349E9A3716F90E4300B621C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349E9A0F16F90E4200B621C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E9A2316F90E4200B621C4 /* main.m in Sources */,
+				349E9A2716F90E4200B621C4 /* iHealthAppDelegate.m in Sources */,
+				349E9A3316F90E4200B621C4 /* iHealthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349E9A3416F90E4300B621C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E9A4816F90E4300B621C4 /* iHealth_TrackrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349E9A3F16F90E4300B621C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349E9A1216F90E4200B621C4 /* iHealth Trackr */;
+			targetProxy = 349E9A3E16F90E4300B621C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		349E9A1F16F90E4200B621C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349E9A2016F90E4200B621C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		349E9A2E16F90E4200B621C4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349E9A2F16F90E4200B621C4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		349E9A4316F90E4300B621C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349E9A4416F90E4300B621C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349E9A4916F90E4300B621C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		349E9A4A16F90E4300B621C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349E9A4C16F90E4300B621C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealth Trackr/iHealth Trackr-Prefix.pch";
+				INFOPLIST_FILE = "iHealth Trackr/iHealth Trackr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		349E9A4D16F90E4300B621C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealth Trackr/iHealth Trackr-Prefix.pch";
+				INFOPLIST_FILE = "iHealth Trackr/iHealth Trackr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		349E9A4F16F90E4300B621C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHealth Trackr.app/iHealth Trackr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealth Trackr/iHealth Trackr-Prefix.pch";
+				INFOPLIST_FILE = "iHealth TrackrTests/iHealth TrackrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		349E9A5016F90E4300B621C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHealth Trackr.app/iHealth Trackr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHealth Trackr/iHealth Trackr-Prefix.pch";
+				INFOPLIST_FILE = "iHealth TrackrTests/iHealth TrackrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349E9A0E16F90E4200B621C4 /* Build configuration list for PBXProject "iHealth Trackr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E9A4916F90E4300B621C4 /* Debug */,
+				349E9A4A16F90E4300B621C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349E9A4B16F90E4300B621C4 /* Build configuration list for PBXNativeTarget "iHealth Trackr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E9A4C16F90E4300B621C4 /* Debug */,
+				349E9A4D16F90E4300B621C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		349E9A4E16F90E4300B621C4 /* Build configuration list for PBXNativeTarget "iHealth TrackrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E9A4F16F90E4300B621C4 /* Debug */,
+				349E9A5016F90E4300B621C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349E9A0B16F90E4200B621C4 /* Project object */;
+}
