@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3492646B1705517300E3BAD5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3492646A1705517300E3BAD5 /* icon@2x.png */; };
+		3492646D1705517900E3BAD5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3492646C1705517900E3BAD5 /* icon.png */; };
+		3492646F17055BFC00E3BAD5 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3492646E17055BFC00E3BAD5 /* lock.png */; };
+		3492647117055EC100E3BAD5 /* lock-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3492647017055EC100E3BAD5 /* lock-clicked.png */; };
 		9136F5221705033600ED38C0 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9136F5211705033600ED38C0 /* UserTableViewController.m */; };
 		91BAC5321704F06C00E0B79B /* userList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BAC5311704F06C00E0B79B /* userList.plist */; };
 		91DAA8F217012CDA00652CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F117012CDA00652CB3 /* UIKit.framework */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3492646A1705517300E3BAD5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		3492646C1705517900E3BAD5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3492646E17055BFC00E3BAD5 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = ../../Images/lock.png; sourceTree = "<group>"; };
+		3492647017055EC100E3BAD5 /* lock-clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock-clicked.png"; path = "../../Images/lock-clicked.png"; sourceTree = "<group>"; };
 		9136F5201705033600ED38C0 /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewController.h; sourceTree = "<group>"; };
 		9136F5211705033600ED38C0 /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
 		91BAC5311704F06C00E0B79B /* userList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userList.plist; sourceTree = "<group>"; };
@@ -58,9 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34926469170518FF00E3BAD5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3492647017055EC100E3BAD5 /* lock-clicked.png */,
+				3492646E17055BFC00E3BAD5 /* lock.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		91DAA8E517012CDA00652CB3 = {
 			isa = PBXGroup;
 			children = (
+				3492646C1705517900E3BAD5 /* icon.png */,
+				3492646A1705517300E3BAD5 /* icon@2x.png */,
 				91DAA8F717012CDA00652CB3 /* MedicalApp */,
 				91DAA8F017012CDA00652CB3 /* Frameworks */,
 				91DAA8EF17012CDA00652CB3 /* Products */,
@@ -103,6 +122,7 @@
 		91DAA8F817012CDA00652CB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34926469170518FF00E3BAD5 /* images */,
 				91BAC5311704F06C00E0B79B /* userList.plist */,
 				91DAA8F917012CDA00652CB3 /* MedicalApp-Info.plist */,
 				91DAA8FA17012CDA00652CB3 /* InfoPlist.strings */,
@@ -172,6 +192,10 @@
 				91DAA90817012CDB00652CB3 /* Default-568h@2x.png in Resources */,
 				91DAA90B17012CDB00652CB3 /* MainStoryboard.storyboard in Resources */,
 				91BAC5321704F06C00E0B79B /* userList.plist in Resources */,
+				3492646B1705517300E3BAD5 /* icon@2x.png in Resources */,
+				3492646D1705517900E3BAD5 /* icon.png in Resources */,
+				3492646F17055BFC00E3BAD5 /* lock.png in Resources */,
+				3492647117055EC100E3BAD5 /* lock-clicked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="D0C-83-3LG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="D0C-83-3LG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -91,15 +91,15 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVN-0j-YxB">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="o3K-2p-5jV"/>
-                                    <constraint firstAttribute="height" constant="190" id="oCZ-aI-PYa"/>
+                                    <constraint firstAttribute="height" constant="199" id="4XD-7C-oCC"/>
+                                    <constraint firstAttribute="width" constant="200" id="Hii-AC-9U9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Lock Symbol">
+                                <state key="normal" title="Lock Symbol" image="lock.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted">
+                                <state key="highlighted" image="lock-clicked.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -132,12 +132,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="nU9-qB-nSW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="101" id="3b6-Cl-SIx"/>
                             <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="nU9-qB-nSW" secondAttribute="centerX" type="default" id="7Cf-12-Cs3"/>
-                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="xVN-0j-YxB" secondAttribute="centerX" type="default" id="CVT-sG-sOz"/>
-                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="top" secondItem="3" secondAttribute="top" constant="124" id="Koa-Wc-54r"/>
+                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="top" secondItem="3" secondAttribute="top" constant="123" id="LtQ-6b-8vl"/>
                             <constraint firstItem="nU9-qB-nSW" firstAttribute="centerX" secondItem="ihk-v5-rx1" secondAttribute="centerX" type="default" id="NxJ-Ln-3Nh"/>
-                            <constraint firstItem="nU9-qB-nSW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="102" id="P1H-9U-2Ni"/>
-                            <constraint firstItem="xVN-0j-YxB" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="U4h-2B-MMn"/>
+                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="W22-MM-vWG"/>
+                            <constraint firstItem="xVN-0j-YxB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="62" id="owT-xJ-VpQ"/>
                             <constraint firstItem="ihk-v5-rx1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qTg-XN-mBf"/>
                             <constraint firstItem="xVN-0j-YxB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="171" id="zpG-3D-K2r"/>
                         </constraints>
@@ -159,14 +159,14 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="z37-by-Ncm">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="8Q4-iZ-PaC"/>
                                     <constraint firstAttribute="height" constant="475" id="UAb-yW-3QA"/>
                                 </constraints>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="z37-by-Ncm" firstAttribute="trailing" secondItem="fU0-I6-VhF" secondAttribute="trailing" type="default" id="T7S-hb-lpa"/>
-                            <constraint firstItem="z37-by-Ncm" firstAttribute="leading" secondItem="fU0-I6-VhF" secondAttribute="leading" type="default" id="ojT-us-oLb"/>
+                            <constraint firstItem="z37-by-Ncm" firstAttribute="leading" secondItem="fU0-I6-VhF" secondAttribute="leading" constant="1" id="bm1-jb-zJq"/>
                             <constraint firstItem="z37-by-Ncm" firstAttribute="bottom" secondItem="fU0-I6-VhF" secondAttribute="bottom" type="default" id="pl7-Ry-Rr7"/>
                         </constraints>
                     </view>
@@ -214,9 +214,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="uOf-T6-MJX" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="3KC-3W-OaK"/>
+                            <constraint firstAttribute="bottom" secondItem="yNO-1a-Q3F" secondAttribute="bottom" constant="72" id="3yH-qL-W5D"/>
+                            <constraint firstItem="uOf-T6-MJX" firstAttribute="top" secondItem="ffx-oh-78n" secondAttribute="top" constant="29" id="8LJ-8W-EMK"/>
                             <constraint firstAttribute="trailing" secondItem="yNO-1a-Q3F" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="T6n-UU-0Ib"/>
-                            <constraint firstAttribute="bottom" secondItem="yNO-1a-Q3F" secondAttribute="bottom" constant="71" id="TIq-Qs-f0B"/>
-                            <constraint firstItem="uOf-T6-MJX" firstAttribute="top" secondItem="ffx-oh-78n" secondAttribute="top" constant="30" id="Xm4-D5-4T4"/>
                             <constraint firstItem="yNO-1a-Q3F" firstAttribute="leading" secondItem="uOf-T6-MJX" secondAttribute="leading" type="default" id="lPD-Yb-5UE"/>
                         </constraints>
                     </view>
@@ -264,11 +264,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfQ-Wx-2W2">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="19" id="8ZK-3C-QNE"/>
+                                    <constraint firstAttribute="height" constant="22" id="Z35-bm-hzO"/>
                                     <constraint firstAttribute="width" constant="65" id="cEa-Aa-con"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                <state key="normal" title="Not You?">
+                                <state key="normal" title="Logout">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -292,10 +292,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="TmM-Sm-K5Z" firstAttribute="centerX" secondItem="KjM-cH-LBU" secondAttribute="centerX" type="default" id="068-Tv-uPr"/>
+                            <constraint firstAttribute="bottom" secondItem="8DE-Aw-MgS" secondAttribute="bottom" constant="126" id="2ZY-WD-5zS"/>
                             <constraint firstItem="CeP-ln-dEU" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="3" id="WNb-pa-X5v"/>
-                            <constraint firstItem="8DE-Aw-MgS" firstAttribute="top" secondItem="TmM-Sm-K5Z" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="XNu-dt-Uwa"/>
-                            <constraint firstItem="8DE-Aw-MgS" firstAttribute="centerX" secondItem="KjM-cH-LBU" secondAttribute="centerX" type="default" id="YQK-NW-XCT"/>
-                            <constraint firstItem="TmM-Sm-K5Z" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="137" id="ZKD-Q7-4SS"/>
+                            <constraint firstItem="TmM-Sm-K5Z" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="136" id="acZ-jX-Zml"/>
                             <constraint firstItem="QfQ-Wx-2W2" firstAttribute="centerX" secondItem="gWj-3l-MTF" secondAttribute="centerX" type="default" id="cHm-Uh-gsd"/>
                             <constraint firstItem="gWj-3l-MTF" firstAttribute="centerX" secondItem="CeP-ln-dEU" secondAttribute="centerX" type="default" id="j1z-UT-rIB"/>
                             <constraint firstItem="TmM-Sm-K5Z" firstAttribute="leading" secondItem="8DE-Aw-MgS" secondAttribute="leading" type="default" id="ml8-rj-q6j"/>
@@ -336,6 +336,10 @@
             <point key="canvasLocation" x="-49" y="-261"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lock-clicked.png" width="200" height="200"/>
+        <image name="lock.png" width="200" height="200"/>
+    </resources>
     <classes>
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
