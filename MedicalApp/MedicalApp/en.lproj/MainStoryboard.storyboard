@@ -250,11 +250,11 @@
                                     <constraint firstAttribute="width" constant="197" id="ztP-dp-t3k"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Add New Symbol">
+                                <state key="normal" title="Add New Symbol" image="add-unclicked.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted">
+                                <state key="highlighted" image="add-clicked.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -295,14 +295,14 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="8DE-Aw-MgS" secondAttribute="bottom" constant="126" id="2ZY-WD-5zS"/>
                             <constraint firstItem="TmM-Sm-K5Z" firstAttribute="top" secondItem="HB0-qV-BTk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4mS-C2-KZU"/>
+                            <constraint firstItem="gWj-3l-MTF" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="74" id="DXI-oi-RbF"/>
                             <constraint firstItem="HB0-qV-BTk" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="100" id="Fvd-nC-hK3"/>
                             <constraint firstItem="HB0-qV-BTk" firstAttribute="centerX" secondItem="gWj-3l-MTF" secondAttribute="centerX" type="default" id="GpM-SH-knm"/>
-                            <constraint firstItem="HB0-qV-BTk" firstAttribute="centerX" secondItem="KjM-cH-LBU" secondAttribute="centerX" type="default" id="LGa-M9-09q"/>
                             <constraint firstItem="CeP-ln-dEU" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="3" id="WNb-pa-X5v"/>
+                            <constraint firstItem="CeP-ln-dEU" firstAttribute="leading" secondItem="KjM-cH-LBU" secondAttribute="leading" constant="47" id="i5X-Po-vGy"/>
                             <constraint firstItem="gWj-3l-MTF" firstAttribute="centerX" secondItem="CeP-ln-dEU" secondAttribute="centerX" type="default" id="j1z-UT-rIB"/>
                             <constraint firstItem="TmM-Sm-K5Z" firstAttribute="leading" secondItem="8DE-Aw-MgS" secondAttribute="leading" type="default" id="ml8-rj-q6j"/>
                             <constraint firstItem="HB0-qV-BTk" firstAttribute="centerX" secondItem="TmM-Sm-K5Z" secondAttribute="centerX" type="default" id="tpi-yL-tw9"/>
-                            <constraint firstItem="gWj-3l-MTF" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="75" id="uBR-rq-nw6"/>
                             <constraint firstItem="TmM-Sm-K5Z" firstAttribute="trailing" secondItem="8DE-Aw-MgS" secondAttribute="trailing" type="default" id="vKk-oL-vT5"/>
                         </constraints>
                     </view>
@@ -324,7 +324,8 @@
             <objects>
                 <navigationController id="D0C-83-3LG" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h6C-ls-yzF">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="h6C-ls-yzF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -339,6 +340,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="add-clicked.png" width="200" height="200"/>
+        <image name="add-unclicked.png" width="200" height="200"/>
         <image name="lock-clicked.png" width="200" height="200"/>
         <image name="lock.png" width="200" height="200"/>
     </resources>
