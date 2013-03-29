@@ -15,7 +15,7 @@
 		34C044BE1706217C00E7EE97 /* add-unclicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044BC1706217C00E7EE97 /* add-unclicked.png */; };
 		34C044C1170626ED00E7EE97 /* previous-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044BF170626ED00E7EE97 /* previous-clicked.png */; };
 		34C044C2170626ED00E7EE97 /* previous-unclicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044C0170626ED00E7EE97 /* previous-unclicked.png */; };
-		9136F5221705033600ED38C0 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9136F5211705033600ED38C0 /* UserTableViewController.m */; };
+		9188A1C61705F8DC00F2156D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188A1C51705F8DC00F2156D /* UserViewController.m */; };
 		91BAC5321704F06C00E0B79B /* userList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BAC5311704F06C00E0B79B /* userList.plist */; };
 		91DAA8F217012CDA00652CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F117012CDA00652CB3 /* UIKit.framework */; };
 		91DAA8F417012CDA00652CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F317012CDA00652CB3 /* Foundation.framework */; };
@@ -39,8 +39,8 @@
 		34C044BC1706217C00E7EE97 /* add-unclicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-unclicked.png"; path = "../../Images/add-unclicked.png"; sourceTree = "<group>"; };
 		34C044BF170626ED00E7EE97 /* previous-clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "previous-clicked.png"; path = "../../Images/previous-clicked.png"; sourceTree = "<group>"; };
 		34C044C0170626ED00E7EE97 /* previous-unclicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "previous-unclicked.png"; path = "../../Images/previous-unclicked.png"; sourceTree = "<group>"; };
-		9136F5201705033600ED38C0 /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewController.h; sourceTree = "<group>"; };
-		9136F5211705033600ED38C0 /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
+		9188A1C41705F8DC00F2156D /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserViewController.h; path = ../UserViewController.h; sourceTree = "<group>"; };
+		9188A1C51705F8DC00F2156D /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = ../UserViewController.m; sourceTree = "<group>"; };
 		91BAC5311704F06C00E0B79B /* userList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userList.plist; sourceTree = "<group>"; };
 		91DAA8EE17012CDA00652CB3 /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAA8F117012CDA00652CB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -119,11 +119,11 @@
 		91DAA8F717012CDA00652CB3 /* MedicalApp */ = {
 			isa = PBXGroup;
 			children = (
+				9188A1C41705F8DC00F2156D /* UserViewController.h */,
+				9188A1C51705F8DC00F2156D /* UserViewController.m */,
 				91DAA90017012CDA00652CB3 /* AppDelegate.h */,
 				91DAA90117012CDA00652CB3 /* AppDelegate.m */,
 				91DAA90917012CDB00652CB3 /* MainStoryboard.storyboard */,
-				9136F5201705033600ED38C0 /* UserTableViewController.h */,
-				9136F5211705033600ED38C0 /* UserTableViewController.m */,
 				91DAA91717013BD100652CB3 /* MainViewController.h */,
 				91DAA91817013BD100652CB3 /* MainViewController.m */,
 				91DAA8F817012CDA00652CB3 /* Supporting Files */,
@@ -225,7 +225,7 @@
 				91DAA8FE17012CDA00652CB3 /* main.m in Sources */,
 				91DAA90217012CDA00652CB3 /* AppDelegate.m in Sources */,
 				91DAA91917013BD100652CB3 /* MainViewController.m in Sources */,
-				9136F5221705033600ED38C0 /* UserTableViewController.m in Sources */,
+				9188A1C61705F8DC00F2156D /* UserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
