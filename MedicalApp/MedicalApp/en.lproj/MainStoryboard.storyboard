@@ -112,17 +112,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfp-Is-Nno">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="TuK-ZU-CN3"/>
-                                    <constraint firstAttribute="width" constant="82" id="ahH-TA-aNM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                <state key="normal" title="Not You?">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfp-Is-Nno">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                <state key="normal" title="NOT YOU?" backgroundImage="not-you-unclicked.png">
+                                    <color key="titleColor" red="0.98431378599999997" green="0.94901967050000002" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted">
+                                <state key="highlighted" backgroundImage="not-you-clicked.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -132,13 +128,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="3Pa-5S-PRt"/>
+                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="nU9-qB-nSW" secondAttribute="centerX" type="default" id="669-OP-Tdx"/>
                             <constraint firstItem="xVN-0j-YxB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="62" id="74k-UK-laq"/>
-                            <constraint firstItem="nU9-qB-nSW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="9U4-ZU-mIg"/>
                             <constraint firstItem="nU9-qB-nSW" firstAttribute="centerX" secondItem="ihk-v5-rx1" secondAttribute="centerX" type="default" id="NxJ-Ln-3Nh"/>
                             <constraint firstItem="nU9-qB-nSW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="94" id="RWX-py-lLA"/>
-                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="top" secondItem="nU9-qB-nSW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="U9j-mD-eeD"/>
-                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="xVN-0j-YxB" secondAttribute="centerX" type="default" id="iBc-Nr-BCM"/>
                             <constraint firstItem="ihk-v5-rx1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qTg-XN-mBf"/>
+                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="top" secondItem="nU9-qB-nSW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xV3-7O-cmW"/>
                             <constraint firstItem="xVN-0j-YxB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="171" id="zpG-3D-K2r"/>
                         </constraints>
                     </view>
@@ -297,29 +293,25 @@
                                     <segue destination="JiT-dR-Mn3" kind="push" id="se2-f6-T3f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HB0-qV-BTk">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="82" id="PRv-KT-qxe"/>
-                                    <constraint firstAttribute="height" constant="28" id="jhp-VB-UjR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                <state key="normal" title="Not You?">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HB0-qV-BTk">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                                <state key="normal" title="NOT YOU?" backgroundImage="not-you-unclicked.png">
+                                    <color key="titleColor" red="0.98431378599999997" green="0.94901967050000002" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted">
+                                <state key="highlighted" backgroundImage="not-you-clicked.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TmM-Sm-K5Z" firstAttribute="top" secondItem="HB0-qV-BTk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4mS-C2-KZU"/>
+                            <constraint firstItem="HB0-qV-BTk" firstAttribute="centerX" secondItem="KjM-cH-LBU" secondAttribute="centerX" type="default" id="491-d9-2Pj"/>
+                            <constraint firstItem="TmM-Sm-K5Z" firstAttribute="top" secondItem="HB0-qV-BTk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="71B-dr-eEW"/>
                             <constraint firstItem="gWj-3l-MTF" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="74" id="DXI-oi-RbF"/>
                             <constraint firstItem="TmM-Sm-K5Z" firstAttribute="leading" secondItem="KjM-cH-LBU" secondAttribute="leading" constant="63" id="DrA-SR-XJu"/>
-                            <constraint firstItem="HB0-qV-BTk" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="100" id="Fvd-nC-hK3"/>
-                            <constraint firstItem="HB0-qV-BTk" firstAttribute="centerX" secondItem="gWj-3l-MTF" secondAttribute="centerX" type="default" id="GpM-SH-knm"/>
                             <constraint firstItem="CeP-ln-dEU" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="3" id="WNb-pa-X5v"/>
+                            <constraint firstItem="HB0-qV-BTk" firstAttribute="top" secondItem="KjM-cH-LBU" secondAttribute="top" constant="100" id="gSP-e3-TEF"/>
                             <constraint firstItem="CeP-ln-dEU" firstAttribute="leading" secondItem="KjM-cH-LBU" secondAttribute="leading" constant="47" id="i5X-Po-vGy"/>
                             <constraint firstItem="gWj-3l-MTF" firstAttribute="centerX" secondItem="CeP-ln-dEU" secondAttribute="centerX" type="default" id="j1z-UT-rIB"/>
                             <constraint firstItem="TmM-Sm-K5Z" firstAttribute="leading" secondItem="8DE-Aw-MgS" secondAttribute="leading" type="default" id="ml8-rj-q6j"/>
@@ -365,9 +357,23 @@
         <image name="add-unclicked.png" width="200" height="200"/>
         <image name="lock-clicked.png" width="200" height="200"/>
         <image name="lock-unclicked.png" width="200" height="200"/>
+        <image name="not-you-clicked.png" width="82" height="29"/>
+        <image name="not-you-unclicked.png" width="82" height="29"/>
         <image name="previous-clicked.png" width="200" height="44"/>
         <image name="previous-unclicked.png" width="200" height="44"/>
     </resources>
+    <classes>
+        <class className="MainViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="exportAlert"/>
+                <relationship kind="action" name="passwordAlert"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

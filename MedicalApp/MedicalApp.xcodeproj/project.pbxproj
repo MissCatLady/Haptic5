@@ -21,6 +21,10 @@
 		34C044CC170644A600E7EE97 /* add-clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044CA170644A600E7EE97 /* add-clicked@2x.png */; };
 		34C044CF1706492E00E7EE97 /* previous-unclicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044CD1706492E00E7EE97 /* previous-unclicked@2x.png */; };
 		34C044D01706492E00E7EE97 /* previous-clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044CE1706492E00E7EE97 /* previous-clicked@2x.png */; };
+		34C044D5170764B600E7EE97 /* not-you-clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D1170764B600E7EE97 /* not-you-clicked@2x.png */; };
+		34C044D6170764B600E7EE97 /* not-you-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D2170764B600E7EE97 /* not-you-clicked.png */; };
+		34C044D7170764B600E7EE97 /* not-you-unclicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D3170764B600E7EE97 /* not-you-unclicked@2x.png */; };
+		34C044D8170764B600E7EE97 /* not-you-unclicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D4170764B600E7EE97 /* not-you-unclicked.png */; };
 		9188A1C61705F8DC00F2156D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188A1C51705F8DC00F2156D /* UserViewController.m */; };
 		91BAC5321704F06C00E0B79B /* userList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BAC5311704F06C00E0B79B /* userList.plist */; };
 		91DAA8F217012CDA00652CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F117012CDA00652CB3 /* UIKit.framework */; };
@@ -51,6 +55,10 @@
 		34C044CA170644A600E7EE97 /* add-clicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-clicked@2x.png"; path = "../../Images/add-clicked@2x.png"; sourceTree = "<group>"; };
 		34C044CD1706492E00E7EE97 /* previous-unclicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "previous-unclicked@2x.png"; path = "../../Images/previous-unclicked@2x.png"; sourceTree = "<group>"; };
 		34C044CE1706492E00E7EE97 /* previous-clicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "previous-clicked@2x.png"; path = "../../Images/previous-clicked@2x.png"; sourceTree = "<group>"; };
+		34C044D1170764B600E7EE97 /* not-you-clicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-clicked@2x.png"; path = "../../Images/not-you-clicked@2x.png"; sourceTree = "<group>"; };
+		34C044D2170764B600E7EE97 /* not-you-clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-clicked.png"; path = "../../Images/not-you-clicked.png"; sourceTree = "<group>"; };
+		34C044D3170764B600E7EE97 /* not-you-unclicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-unclicked@2x.png"; path = "../../Images/not-you-unclicked@2x.png"; sourceTree = "<group>"; };
+		34C044D4170764B600E7EE97 /* not-you-unclicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-unclicked.png"; path = "../../Images/not-you-unclicked.png"; sourceTree = "<group>"; };
 		9188A1C41705F8DC00F2156D /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserViewController.h; path = ../UserViewController.h; sourceTree = "<group>"; };
 		9188A1C51705F8DC00F2156D /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = ../UserViewController.m; sourceTree = "<group>"; };
 		91BAC5311704F06C00E0B79B /* userList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userList.plist; sourceTree = "<group>"; };
@@ -89,6 +97,10 @@
 		34926469170518FF00E3BAD5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				34C044D1170764B600E7EE97 /* not-you-clicked@2x.png */,
+				34C044D2170764B600E7EE97 /* not-you-clicked.png */,
+				34C044D3170764B600E7EE97 /* not-you-unclicked@2x.png */,
+				34C044D4170764B600E7EE97 /* not-you-unclicked.png */,
 				34C044CD1706492E00E7EE97 /* previous-unclicked@2x.png */,
 				34C044CE1706492E00E7EE97 /* previous-clicked@2x.png */,
 				34C044C9170644A600E7EE97 /* add-unclicked@2x.png */,
@@ -236,6 +248,10 @@
 				34C044CC170644A600E7EE97 /* add-clicked@2x.png in Resources */,
 				34C044CF1706492E00E7EE97 /* previous-unclicked@2x.png in Resources */,
 				34C044D01706492E00E7EE97 /* previous-clicked@2x.png in Resources */,
+				34C044D5170764B600E7EE97 /* not-you-clicked@2x.png in Resources */,
+				34C044D6170764B600E7EE97 /* not-you-clicked.png in Resources */,
+				34C044D7170764B600E7EE97 /* not-you-unclicked@2x.png in Resources */,
+				34C044D8170764B600E7EE97 /* not-you-unclicked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
