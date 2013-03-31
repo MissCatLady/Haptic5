@@ -47,13 +47,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MedicalApp/UserTableViewController.m"
-         timestampString = "386205037.280447"
+         timestampString = "386399171.106318"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "51"
-         endingLineNumber = "51"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
+         startingLineNumber = "50"
+         endingLineNumber = "50"
+         landmarkName = "@implementation UserTableViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"

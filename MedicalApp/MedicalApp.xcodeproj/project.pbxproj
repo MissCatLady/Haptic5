@@ -25,8 +25,7 @@
 		34C044D6170764B600E7EE97 /* not-you-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D2170764B600E7EE97 /* not-you-clicked.png */; };
 		34C044D7170764B600E7EE97 /* not-you-unclicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D3170764B600E7EE97 /* not-you-unclicked@2x.png */; };
 		34C044D8170764B600E7EE97 /* not-you-unclicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C044D4170764B600E7EE97 /* not-you-unclicked.png */; };
-		9188A1C61705F8DC00F2156D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9188A1C51705F8DC00F2156D /* UserViewController.m */; };
-		91BAC5321704F06C00E0B79B /* userList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BAC5311704F06C00E0B79B /* userList.plist */; };
+		91B1771F1708938B007323A1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B1771E1708938B007323A1 /* SettingsViewController.m */; };
 		91DAA8F217012CDA00652CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F117012CDA00652CB3 /* UIKit.framework */; };
 		91DAA8F417012CDA00652CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F317012CDA00652CB3 /* Foundation.framework */; };
 		91DAA8F617012CDA00652CB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F517012CDA00652CB3 /* CoreGraphics.framework */; };
@@ -59,9 +58,8 @@
 		34C044D2170764B600E7EE97 /* not-you-clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-clicked.png"; path = "../../Images/not-you-clicked.png"; sourceTree = "<group>"; };
 		34C044D3170764B600E7EE97 /* not-you-unclicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-unclicked@2x.png"; path = "../../Images/not-you-unclicked@2x.png"; sourceTree = "<group>"; };
 		34C044D4170764B600E7EE97 /* not-you-unclicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "not-you-unclicked.png"; path = "../../Images/not-you-unclicked.png"; sourceTree = "<group>"; };
-		9188A1C41705F8DC00F2156D /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserViewController.h; path = ../UserViewController.h; sourceTree = "<group>"; };
-		9188A1C51705F8DC00F2156D /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = ../UserViewController.m; sourceTree = "<group>"; };
-		91BAC5311704F06C00E0B79B /* userList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userList.plist; sourceTree = "<group>"; };
+		91B1771D1708938B007323A1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		91B1771E1708938B007323A1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		91DAA8EE17012CDA00652CB3 /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAA8F117012CDA00652CB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91DAA8F317012CDA00652CB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -149,11 +147,11 @@
 		91DAA8F717012CDA00652CB3 /* MedicalApp */ = {
 			isa = PBXGroup;
 			children = (
-				9188A1C41705F8DC00F2156D /* UserViewController.h */,
-				9188A1C51705F8DC00F2156D /* UserViewController.m */,
 				91DAA90017012CDA00652CB3 /* AppDelegate.h */,
 				91DAA90117012CDA00652CB3 /* AppDelegate.m */,
 				91DAA90917012CDB00652CB3 /* MainStoryboard.storyboard */,
+				91B1771D1708938B007323A1 /* SettingsViewController.h */,
+				91B1771E1708938B007323A1 /* SettingsViewController.m */,
 				91DAA91717013BD100652CB3 /* MainViewController.h */,
 				91DAA91817013BD100652CB3 /* MainViewController.m */,
 				91DAA8F817012CDA00652CB3 /* Supporting Files */,
@@ -165,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				34926469170518FF00E3BAD5 /* images */,
-				91BAC5311704F06C00E0B79B /* userList.plist */,
 				91DAA8F917012CDA00652CB3 /* MedicalApp-Info.plist */,
 				91DAA8FA17012CDA00652CB3 /* InfoPlist.strings */,
 				91DAA8FD17012CDA00652CB3 /* main.m */,
@@ -233,7 +230,6 @@
 				91DAA90617012CDB00652CB3 /* Default@2x.png in Resources */,
 				91DAA90817012CDB00652CB3 /* Default-568h@2x.png in Resources */,
 				91DAA90B17012CDB00652CB3 /* MainStoryboard.storyboard in Resources */,
-				91BAC5321704F06C00E0B79B /* userList.plist in Resources */,
 				3492646B1705517300E3BAD5 /* icon@2x.png in Resources */,
 				3492646D1705517900E3BAD5 /* icon.png in Resources */,
 				3492647117055EC100E3BAD5 /* lock-clicked.png in Resources */,
@@ -265,7 +261,7 @@
 				91DAA8FE17012CDA00652CB3 /* main.m in Sources */,
 				91DAA90217012CDA00652CB3 /* AppDelegate.m in Sources */,
 				91DAA91917013BD100652CB3 /* MainViewController.m in Sources */,
-				9188A1C61705F8DC00F2156D /* UserViewController.m in Sources */,
+				91B1771F1708938B007323A1 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
