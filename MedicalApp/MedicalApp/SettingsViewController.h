@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingsViewController : UIViewController
+<UITableViewDataSource>
 
 @property (strong, nonatomic) UITableView *table;
+@property (strong, nonatomic) NSMutableArray *options;
 
 -(IBAction)bloodSugarAlert;
 -(IBAction)happinessAlert;

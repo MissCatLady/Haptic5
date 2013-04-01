@@ -60,12 +60,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="3Pa-5S-PRt"/>
                             <constraint firstItem="Hfp-Is-Nno" firstAttribute="centerX" secondItem="nU9-qB-nSW" secondAttribute="centerX" type="default" id="669-OP-Tdx"/>
                             <constraint firstItem="xVN-0j-YxB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="62" id="74k-UK-laq"/>
+                            <constraint firstItem="nU9-qB-nSW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="NVQ-DA-T5H"/>
                             <constraint firstItem="nU9-qB-nSW" firstAttribute="centerX" secondItem="ihk-v5-rx1" secondAttribute="centerX" type="default" id="NxJ-Ln-3Nh"/>
-                            <constraint firstItem="nU9-qB-nSW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="94" id="RWX-py-lLA"/>
                             <constraint firstItem="ihk-v5-rx1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qTg-XN-mBf"/>
+                            <constraint firstItem="nU9-qB-nSW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="94" id="rFY-t3-9xY"/>
                             <constraint firstItem="Hfp-Is-Nno" firstAttribute="top" secondItem="nU9-qB-nSW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xV3-7O-cmW"/>
                             <constraint firstItem="xVN-0j-YxB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="171" id="zpG-3D-K2r"/>
                         </constraints>
@@ -591,7 +591,23 @@
                     <view key="view" contentMode="scaleToFill" id="fgg-Dr-DdH">
                         <rect key="frame" x="0.0" y="64" width="320" height="396"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jP-eA-zi4">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5jP-eA-zi4" secondAttribute="bottom" constant="61" id="Vey-Ek-osZ"/>
+                            <constraint firstItem="5jP-eA-zi4" firstAttribute="leading" secondItem="fgg-Dr-DdH" secondAttribute="leading" constant="75" id="bFZ-gq-r2w"/>
+                        </constraints>
                     </view>
                     <toolbarItems>
                         <barButtonItem title="Settings" id="TS2-fF-WOc"/>
@@ -980,7 +996,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ivV-3w-Fpg"/>
         <segue reference="ZwW-a4-kOp"/>
+        <segue reference="ZQG-m2-mCn"/>
     </inferredMetricsTieBreakers>
 </document>
