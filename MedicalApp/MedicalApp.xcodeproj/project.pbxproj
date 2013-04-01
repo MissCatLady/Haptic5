@@ -38,6 +38,8 @@
 		91DAA90817012CDB00652CB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DAA90717012CDB00652CB3 /* Default-568h@2x.png */; };
 		91DAA90B17012CDB00652CB3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DAA90917012CDB00652CB3 /* MainStoryboard.storyboard */; };
 		91DAA91917013BD100652CB3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DAA91817013BD100652CB3 /* MainViewController.m */; };
+		E19C9F431709E8B100FBBBE0 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19C9F421709E8B100FBBBE0 /* MainTableViewController.m */; };
+		E19C9F461709E91F00FBBBE0 /* CellsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E19C9F451709E91E00FBBBE0 /* CellsCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +81,10 @@
 		91DAA90A17012CDB00652CB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		91DAA91717013BD100652CB3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		91DAA91817013BD100652CB3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E19C9F411709E8B100FBBBE0 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		E19C9F421709E8B100FBBBE0 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		E19C9F441709E91E00FBBBE0 /* CellsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsCell.h; sourceTree = "<group>"; };
+		E19C9F451709E91E00FBBBE0 /* CellsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,9 +156,13 @@
 		91DAA8F717012CDA00652CB3 /* MedicalApp */ = {
 			isa = PBXGroup;
 			children = (
+				E19C9F411709E8B100FBBBE0 /* MainTableViewController.h */,
+				E19C9F421709E8B100FBBBE0 /* MainTableViewController.m */,
 				91DAA90017012CDA00652CB3 /* AppDelegate.h */,
 				91DAA90117012CDA00652CB3 /* AppDelegate.m */,
 				91DAA90917012CDB00652CB3 /* MainStoryboard.storyboard */,
+				E19C9F441709E91E00FBBBE0 /* CellsCell.h */,
+				E19C9F451709E91E00FBBBE0 /* CellsCell.m */,
 				91B1771D1708938B007323A1 /* SettingsViewController.h */,
 				91B1771E1708938B007323A1 /* SettingsViewController.m */,
 				91DAA91717013BD100652CB3 /* MainViewController.h */,
@@ -268,6 +278,8 @@
 				91DAA91917013BD100652CB3 /* MainViewController.m in Sources */,
 				91B1771F1708938B007323A1 /* SettingsViewController.m in Sources */,
 				34C044DB17089D7800E7EE97 /* User.m in Sources */,
+				E19C9F431709E8B100FBBBE0 /* MainTableViewController.m in Sources */,
+				E19C9F461709E91F00FBBBE0 /* CellsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,13 +9,25 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingsViewController : UIViewController
-<UITableViewDataSource>
 
 @property (strong, nonatomic) UITableView *table;
-@property (strong, nonatomic) NSMutableArray *options;
 
 -(IBAction)bloodSugarAlert;
 -(IBAction)happinessAlert;
 -(IBAction)waterAlert;
+@property (strong, nonatomic) NSMutableArray *options;
+@property (weak, nonatomic) IBOutlet UILabel *DisplayWater;
+@property (weak, nonatomic) IBOutlet UIStepper *PlusMinus;
+@property (weak, nonatomic) IBOutlet UILabel *Happiness;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *MeasureHappy;
+
+@property (weak, nonatomic) IBOutlet UILabel *GlassesofWater;
+@property (weak, nonatomic) IBOutlet UISwitch *BloodSugarSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *HappinessSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *WaterSwitch;
+
+@property (weak, nonatomic) IBOutlet UILabel *BloodSugarLabel;
+
+@property (weak, nonatomic) IBOutlet UITextField *BloodSugarTextField;
 
 @end

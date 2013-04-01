@@ -38,6 +38,10 @@
     [exportAlert show];
     
 }
+- (BOOL)TextReturned:(UITextField *)sender {
+    [sender resignFirstResponder];
+    return YES;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
