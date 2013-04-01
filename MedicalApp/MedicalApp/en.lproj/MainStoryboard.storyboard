@@ -119,6 +119,9 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mg2-Dq-ZBH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="gVL-Oc-c1R"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Blood Sugar">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -195,11 +198,24 @@
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ksd-bI-iVw"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyS-Og-08d">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Add New Category">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LYw-Cf-Obm" kind="push" id="YWh-TD-1hh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Mg2-Dq-ZBH" firstAttribute="trailing" secondItem="aIa-oW-vr1" secondAttribute="trailing" type="default" id="1KT-ab-ez5"/>
-                            <constraint firstAttribute="bottom" secondItem="aIa-oW-vr1" secondAttribute="bottom" constant="71" id="2Ih-i3-fKy"/>
+                            <constraint firstAttribute="trailing" secondItem="aIa-oW-vr1" secondAttribute="trailing" constant="25" id="0Jk-tK-Kzl"/>
+                            <constraint firstItem="AyS-Og-08d" firstAttribute="leading" secondItem="2gT-WL-SOX" secondAttribute="leading" constant="40" id="23b-Ja-H3V"/>
                             <constraint firstItem="KYL-Sd-aib" firstAttribute="trailing" secondItem="Ncf-bo-efa" secondAttribute="trailing" type="default" id="54v-uH-J82"/>
                             <constraint firstItem="Ksd-bI-iVw" firstAttribute="leading" secondItem="2gT-WL-SOX" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5zU-Sn-2x4"/>
                             <constraint firstItem="9Ty-DI-QX7" firstAttribute="top" secondItem="uNs-qS-aHj" secondAttribute="top" type="default" id="8bW-nM-bmm"/>
@@ -212,17 +228,17 @@
                             <constraint firstItem="z3H-I4-JuA" firstAttribute="top" secondItem="2gT-WL-SOX" secondAttribute="top" constant="152" id="Ozs-px-lMX"/>
                             <constraint firstItem="Ncf-bo-efa" firstAttribute="trailing" secondItem="ItX-3H-DAp" secondAttribute="trailing" type="default" id="QWh-FQ-KH6"/>
                             <constraint firstItem="ItX-3H-DAp" firstAttribute="leading" secondItem="Ncf-bo-efa" secondAttribute="leading" type="default" id="Tll-RA-sQo"/>
+                            <constraint firstItem="AyS-Og-08d" firstAttribute="baseline" secondItem="aIa-oW-vr1" secondAttribute="baseline" type="default" id="VOZ-lw-xCq"/>
                             <constraint firstItem="KYL-Sd-aib" firstAttribute="leading" secondItem="z3H-I4-JuA" secondAttribute="leading" type="default" id="WwV-sz-3Yr"/>
                             <constraint firstAttribute="trailing" secondItem="uNs-qS-aHj" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ZmW-fH-xFV"/>
                             <constraint firstItem="2gJ-cU-G62" firstAttribute="top" secondItem="2gT-WL-SOX" secondAttribute="top" constant="205" id="ajZ-i7-ioT"/>
                             <constraint firstItem="z3H-I4-JuA" firstAttribute="trailing" secondItem="KYL-Sd-aib" secondAttribute="trailing" type="default" id="e7X-MY-AHn"/>
                             <constraint firstItem="Mg2-Dq-ZBH" firstAttribute="leading" secondItem="Ksd-bI-iVw" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="fea-zn-IJR"/>
-                            <constraint firstItem="Mg2-Dq-ZBH" firstAttribute="leading" secondItem="NWX-Bb-nMP" secondAttribute="leading" type="default" id="ffT-yu-tsm"/>
-                            <constraint firstItem="aIa-oW-vr1" firstAttribute="centerX" secondItem="2gT-WL-SOX" secondAttribute="centerX" type="default" id="fyp-vW-Ups"/>
+                            <constraint firstItem="aIa-oW-vr1" firstAttribute="leading" secondItem="z3H-I4-JuA" secondAttribute="leading" type="default" id="fye-iG-2cE"/>
+                            <constraint firstAttribute="bottom" secondItem="AyS-Og-08d" secondAttribute="bottom" constant="73" id="iS9-kf-fib"/>
                             <constraint firstItem="Hwh-cA-OX2" firstAttribute="leading" secondItem="2gT-WL-SOX" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="idp-tW-5vc"/>
                             <constraint firstItem="Ksd-bI-iVw" firstAttribute="top" secondItem="Mg2-Dq-ZBH" secondAttribute="top" type="default" id="li2-Os-Kfg"/>
                             <constraint firstItem="uNs-qS-aHj" firstAttribute="leading" secondItem="2gJ-cU-G62" secondAttribute="leading" type="default" id="lyS-Dk-U0j"/>
-                            <constraint firstAttribute="trailing" secondItem="ItX-3H-DAp" secondAttribute="trailing" constant="28" id="myi-bO-m0Y"/>
                             <constraint firstItem="KYL-Sd-aib" firstAttribute="leading" secondItem="Ncf-bo-efa" secondAttribute="leading" type="default" id="oIW-JS-FEU"/>
                             <constraint firstItem="Ncf-bo-efa" firstAttribute="top" secondItem="2gT-WL-SOX" secondAttribute="top" constant="98" id="pFh-in-6DE"/>
                             <constraint firstItem="Ksd-bI-iVw" firstAttribute="top" secondItem="2gT-WL-SOX" secondAttribute="top" constant="80" id="qc9-GH-4Dw"/>
@@ -242,6 +258,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAj-Pa-eg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1340" y="-520"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UAJ-j7-M1P">
+            <objects>
+                <viewController id="LYw-Cf-Obm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mua-Yx-pQt">
+                        <rect key="frame" x="0.0" y="20" width="320" height="484"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vad-Sn-wJM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzT-Xc-IQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1776" y="-550"/>
         </scene>
         <!--Main View Controller - Previous Days-->
         <scene sceneID="9fR-DK-Myg">
@@ -1108,7 +1139,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="NQ8-4I-Ur4"/>
+        <segue reference="w2h-Kx-ewg"/>
         <segue reference="ivV-3w-Fpg"/>
         <segue reference="Uai-UL-ibF"/>
     </inferredMetricsTieBreakers>
