@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="D0C-83-3LG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="D0C-83-3LG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -880,25 +880,78 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="TextBegin:" destination="mfa-bT-9Wy" eventType="editingDidBegin" id="cMa-s1-F9x"/>
+                                    <action selector="TextEnd:" destination="mfa-bT-9Wy" eventType="editingDidEnd" id="OLc-h5-yx7"/>
                                     <action selector="TextReturned:" destination="mfa-bT-9Wy" eventType="editingDidEndOnExit" id="Ycv-eQ-bj9"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twd-Bx-W5t">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="UserName:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twd-Bx-W5t">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="rkj-cA-gBq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Axa-En-bMX">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="PasswordBegin:" destination="mfa-bT-9Wy" eventType="editingDidBegin" id="Obe-L6-qS9"/>
+                                    <action selector="PasswordEnd:" destination="mfa-bT-9Wy" eventType="editingDidEnd" id="38z-k3-7DA"/>
+                                    <action selector="PasswordReturn:" destination="mfa-bT-9Wy" eventType="editingDidEndOnExit" id="VfK-So-ZC2"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTI-Sa-iat">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="CCB-xm-A9m"/>
+                                    <constraint firstAttribute="width" constant="153" id="tzK-hn-Ru6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Re-Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4E-eR-7za">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="6Pv-A9-4aD"/>
+                                    <constraint firstAttribute="width" constant="109" id="JBK-hl-qmi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UBN-b7-D9B">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="RePassBegin:" destination="mfa-bT-9Wy" eventType="editingDidBegin" id="CL2-co-Xb5"/>
+                                    <action selector="RePassEnd:" destination="mfa-bT-9Wy" eventType="editingDidEnd" id="Ye6-OC-09T"/>
+                                    <action selector="RePassReturn:" destination="mfa-bT-9Wy" eventType="editingDidEndOnExit" id="ELs-3B-uCa"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="twd-Bx-W5t" firstAttribute="top" secondItem="QJp-01-AwW" secondAttribute="top" constant="50" id="Gyd-GB-zwG"/>
+                            <constraint firstItem="Z4E-eR-7za" firstAttribute="trailing" secondItem="twd-Bx-W5t" secondAttribute="trailing" type="default" id="1UX-3D-s69"/>
+                            <constraint firstItem="UBN-b7-D9B" firstAttribute="leading" secondItem="Axa-En-bMX" secondAttribute="leading" type="default" id="C5b-4g-DWH"/>
+                            <constraint firstItem="XTI-Sa-iat" firstAttribute="top" secondItem="QJp-01-AwW" secondAttribute="top" constant="106" id="ETC-dK-Ur2"/>
+                            <constraint firstItem="XTI-Sa-iat" firstAttribute="leading" secondItem="kio-Jd-kln" secondAttribute="leading" type="default" id="I8r-pl-8DU"/>
+                            <constraint firstItem="Z4E-eR-7za" firstAttribute="leading" secondItem="QJp-01-AwW" secondAttribute="leading" constant="26" id="IZi-Qq-WPS"/>
                             <constraint firstItem="kio-Jd-kln" firstAttribute="baseline" secondItem="VlV-ZC-3tk" secondAttribute="baseline" type="default" id="Ind-Up-Ddg"/>
-                            <constraint firstItem="twd-Bx-W5t" firstAttribute="leading" secondItem="kio-Jd-kln" secondAttribute="leading" type="default" id="ObH-Si-CLn"/>
+                            <constraint firstItem="Axa-En-bMX" firstAttribute="trailing" secondItem="oRO-LZ-oB1" secondAttribute="trailing" type="default" id="Jrl-6z-Exz"/>
+                            <constraint firstItem="Axa-En-bMX" firstAttribute="top" secondItem="QJp-01-AwW" secondAttribute="top" constant="104" id="KLZ-9F-hMz"/>
+                            <constraint firstItem="twd-Bx-W5t" firstAttribute="baseline" secondItem="oRO-LZ-oB1" secondAttribute="baseline" type="default" id="Mx9-lT-3cZ"/>
+                            <constraint firstItem="Z4E-eR-7za" firstAttribute="top" secondItem="QJp-01-AwW" secondAttribute="top" constant="158" id="Nvb-qu-D70"/>
                             <constraint firstAttribute="bottom" secondItem="kio-Jd-kln" secondAttribute="bottom" constant="70" id="PRy-0m-JCb"/>
-                            <constraint firstItem="twd-Bx-W5t" firstAttribute="leading" secondItem="QJp-01-AwW" secondAttribute="leading" constant="50" id="Ppw-CR-DUZ"/>
-                            <constraint firstItem="oRO-LZ-oB1" firstAttribute="top" secondItem="twd-Bx-W5t" secondAttribute="top" type="default" id="Wms-EN-xhz"/>
+                            <constraint firstItem="Axa-En-bMX" firstAttribute="leading" secondItem="oRO-LZ-oB1" secondAttribute="leading" type="default" id="UTX-sj-6mh"/>
+                            <constraint firstItem="oRO-LZ-oB1" firstAttribute="top" secondItem="twd-Bx-W5t" secondAttribute="top" type="default" id="Vi2-5y-Lxy"/>
                             <constraint firstItem="oRO-LZ-oB1" firstAttribute="leading" secondItem="QJp-01-AwW" secondAttribute="leading" constant="153" id="Y5K-3s-6Zw"/>
                             <constraint firstAttribute="trailing" secondItem="VlV-ZC-3tk" secondAttribute="trailing" constant="49" id="h65-2i-p66"/>
+                            <constraint firstItem="twd-Bx-W5t" firstAttribute="top" secondItem="QJp-01-AwW" secondAttribute="top" constant="50" id="hP5-vH-sBe"/>
+                            <constraint firstItem="twd-Bx-W5t" firstAttribute="bottom" secondItem="oRO-LZ-oB1" secondAttribute="bottom" type="default" id="kQt-n3-IwB"/>
+                            <constraint firstItem="kio-Jd-kln" firstAttribute="centerX" secondItem="twd-Bx-W5t" secondAttribute="centerX" type="default" id="lBx-cc-NKj"/>
+                            <constraint firstItem="UBN-b7-D9B" firstAttribute="trailing" secondItem="Axa-En-bMX" secondAttribute="trailing" type="default" id="pYu-ME-MGL"/>
+                            <constraint firstItem="UBN-b7-D9B" firstAttribute="top" secondItem="Z4E-eR-7za" secondAttribute="top" type="default" id="vrn-Id-m3O"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fmU-va-4hy"/>
@@ -933,7 +986,7 @@
                         <sections>
                             <tableViewSection id="6BO-0c-qm7">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BbQ-gb-QUm" customClass="CellsCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BbQ-gb-QUm">
                                         <rect key="frame" x="0.0" y="10" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1067,9 +1120,9 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="G0g-eg-5kJ" firstAttribute="leading" secondItem="w1f-2C-E1j" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="3yu-zp-jZO"/>
                                             <constraint firstItem="G0g-eg-5kJ" firstAttribute="top" secondItem="cLA-Hj-rh6" secondAttribute="top" constant="11" id="9t6-PJ-beH"/>
                                             <constraint firstItem="w1f-2C-E1j" firstAttribute="leading" secondItem="cLA-Hj-rh6" secondAttribute="leading" constant="30" id="C7b-Lb-aSI"/>
+                                            <constraint firstItem="G0g-eg-5kJ" firstAttribute="leading" secondItem="w1f-2C-E1j" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ccn-LD-b29"/>
                                             <constraint firstItem="w1f-2C-E1j" firstAttribute="centerY" secondItem="cLA-Hj-rh6" secondAttribute="centerY" type="default" id="u5B-p9-Obd"/>
                                         </constraints>
                                     </tableViewCell>
@@ -1101,12 +1154,16 @@
         <image name="previous-unclicked.png" width="200" height="44"/>
     </resources>
     <classes>
-        <class className="CellsCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CellsCell.h"/>
-        </class>
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
             <relationships>
+                <relationship kind="action" name="PasswordBegin:" candidateClass="UITextField"/>
+                <relationship kind="action" name="PasswordEnd:" candidateClass="UITextField"/>
+                <relationship kind="action" name="RePassBegin:" candidateClass="UITextField"/>
+                <relationship kind="action" name="RePassEnd:" candidateClass="UITextField"/>
+                <relationship kind="action" name="RePassReturn:" candidateClass="UITextField"/>
+                <relationship kind="action" name="TextBegin:" candidateClass="UITextField"/>
+                <relationship kind="action" name="TextEnd:" candidateClass="UITextField"/>
                 <relationship kind="action" name="exportAlert"/>
                 <relationship kind="action" name="passwordAlert"/>
             </relationships>
@@ -1117,6 +1174,10 @@
         <class className="SettingsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
             <relationships>
+                <relationship kind="action" name="PlusMinus:" candidateClass="UIStepper"/>
+                <relationship kind="action" name="SavePressed:" candidateClass="UIButton"/>
+                <relationship kind="action" name="SetPressed:" candidateClass="UIButton"/>
+                <relationship kind="action" name="SettingPressed:" candidateClass="UIBarButtonItem"/>
                 <relationship kind="action" name="bloodSugarAlert"/>
                 <relationship kind="action" name="happinessAlert"/>
                 <relationship kind="action" name="waterAlert"/>
