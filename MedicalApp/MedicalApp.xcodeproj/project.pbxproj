@@ -54,6 +54,10 @@
 		34F534CF170B2CDA000D8115 /* cancel-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534CB170B2CDA000D8115 /* cancel-clicked.png */; };
 		34F534D0170B2CDA000D8115 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534CC170B2CDA000D8115 /* cancel@2x.png */; };
 		34F534D1170B2CDA000D8115 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534CD170B2CDA000D8115 /* cancel.png */; };
+		34F534D4170B34DF000D8115 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534D2170B34DF000D8115 /* calendar@2x.png */; };
+		34F534D5170B34DF000D8115 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534D3170B34DF000D8115 /* calendar.png */; };
+		34F534D8170B3B15000D8115 /* viewdata@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534D6170B3B15000D8115 /* viewdata@2x.png */; };
+		34F534D9170B3B15000D8115 /* viewdata.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F534D7170B3B15000D8115 /* viewdata.png */; };
 		91B1771F1708938B007323A1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B1771E1708938B007323A1 /* SettingsViewController.m */; };
 		91DAA8F217012CDA00652CB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F117012CDA00652CB3 /* UIKit.framework */; };
 		91DAA8F417012CDA00652CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAA8F317012CDA00652CB3 /* Foundation.framework */; };
@@ -119,6 +123,10 @@
 		34F534CB170B2CDA000D8115 /* cancel-clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cancel-clicked.png"; path = "../../Images/cancel-clicked.png"; sourceTree = "<group>"; };
 		34F534CC170B2CDA000D8115 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cancel@2x.png"; path = "../../Images/cancel@2x.png"; sourceTree = "<group>"; };
 		34F534CD170B2CDA000D8115 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel.png; path = ../../Images/cancel.png; sourceTree = "<group>"; };
+		34F534D2170B34DF000D8115 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calendar@2x.png"; path = "../../Images/calendar@2x.png"; sourceTree = "<group>"; };
+		34F534D3170B34DF000D8115 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = ../../Images/calendar.png; sourceTree = "<group>"; };
+		34F534D6170B3B15000D8115 /* viewdata@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "viewdata@2x.png"; path = "../../Images/viewdata@2x.png"; sourceTree = "<group>"; };
+		34F534D7170B3B15000D8115 /* viewdata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viewdata.png; path = ../../Images/viewdata.png; sourceTree = "<group>"; };
 		91B1771D1708938B007323A1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		91B1771E1708938B007323A1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		91DAA8EE17012CDA00652CB3 /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +168,10 @@
 		34926469170518FF00E3BAD5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				34F534D6170B3B15000D8115 /* viewdata@2x.png */,
+				34F534D7170B3B15000D8115 /* viewdata.png */,
+				34F534D2170B34DF000D8115 /* calendar@2x.png */,
+				34F534D3170B34DF000D8115 /* calendar.png */,
 				34F534CA170B2CDA000D8115 /* cancel-clicked@2x.png */,
 				34F534CB170B2CDA000D8115 /* cancel-clicked.png */,
 				34F534CC170B2CDA000D8115 /* cancel@2x.png */,
@@ -375,6 +387,10 @@
 				34F534CF170B2CDA000D8115 /* cancel-clicked.png in Resources */,
 				34F534D0170B2CDA000D8115 /* cancel@2x.png in Resources */,
 				34F534D1170B2CDA000D8115 /* cancel.png in Resources */,
+				34F534D4170B34DF000D8115 /* calendar@2x.png in Resources */,
+				34F534D5170B34DF000D8115 /* calendar.png in Resources */,
+				34F534D8170B3B15000D8115 /* viewdata@2x.png in Resources */,
+				34F534D9170B3B15000D8115 /* viewdata.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
