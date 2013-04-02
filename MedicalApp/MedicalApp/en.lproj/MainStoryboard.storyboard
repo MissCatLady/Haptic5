@@ -1156,6 +1156,9 @@
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
             <relationships>
+                <relationship kind="action" name="RePassBegin:" candidateClass="UITextField"/>
+                <relationship kind="action" name="RePassEnd:" candidateClass="UITextField"/>
+                <relationship kind="action" name="TextBegin:" candidateClass="UITextField"/>
                 <relationship kind="action" name="exportAlert"/>
                 <relationship kind="action" name="passwordAlert"/>
             </relationships>
